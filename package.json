@@ -1,0 +1,37 @@
+{
+  "name": "linter-latest",
+  "version": "1.0.0",
+  "description": "Linter with eslint, stylelint, purifycss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/js/*.js": [
+      "./node_modules/.bin/eslint --fix",
+      "git add"
+    ],
+    "src/css/*.less": [
+      "stylelint --fix --syntax less",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aashirwad/linter-latest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aashirwad/linter-latest/issues"
+  },
+  "homepage": "https://github.com/aashirwad/linter-latest#readme",
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.3"
+  }
+}
