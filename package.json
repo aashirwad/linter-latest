@@ -34,6 +34,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^4.2.3",
     "purify-css": "^1.2.5",
-    "stylelint": "^8.1.1"
+    "stylelint": "^8.1.1",
+    "stylelint-config-standard": "^17.0.0"
   }
 }
