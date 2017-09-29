@@ -1,5 +1,15 @@
 function abc() {
-  window.alert(1);
+  console.log(123);
 }
 
-abc();
+abc(1);
+
+this.firstName = 'Panda';
+
+
+// bad
+function fight() {
+  console.log('Swooosh!');
+}
+
+fight();
