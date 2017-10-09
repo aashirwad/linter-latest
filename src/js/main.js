@@ -12,4 +12,6 @@ function fight() {
   console.log('Swooosh!');
 }
 
+abc();
+
 fight();
