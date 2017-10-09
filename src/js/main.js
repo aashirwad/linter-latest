@@ -1,5 +1,5 @@
-function abc() {
-  console.log(123);
+function abc(arrg1) {
+  console.log(arrg1);
 }
 
 abc(1);
@@ -12,6 +12,6 @@ function fight() {
   console.log('Swooosh!');
 }
 
-abc();
+abc(2);
 
 fight();
