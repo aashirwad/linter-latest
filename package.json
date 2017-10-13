@@ -8,11 +8,11 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "src/js/*.js": [
+    "src/jcr_root/content/js/*.js": [
       "./node_modules/.bin/eslint --fix",
       "git add"
     ],
-    "src/css/*.less": [
+    "src/jcr_root/content/css/*.less": [
       "stylelint --fix --syntax less",
       "git add"
     ]
