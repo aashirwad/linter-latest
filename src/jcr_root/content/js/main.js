@@ -1,8 +1,8 @@
-function abc(arrg1) {
-  console.log(arrg1);
+function abc() {
+  console.log();
 }
 
-abc(1);
+abc();
 
 this.firstName = 'Panda';
 
